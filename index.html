@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+
+    <div class="player">
+        <video src="video.mp4" class="video" poster="4.jpg"></video>
+        <button class="play-circle"><i class="fad fa-play-circle"></i></button>
+
+        <div class="panel">
+
+            <div class="panel-line">
+                <div class="panel-line-current"></div>
+            </div>
+
+            <div class="panel-left">
+                <button class="play">
+                    <i class="fas fa-play"></i>
+                </button>
+
+                <div class="volume">
+                    <button class="mute">
+                        <i class="fas fa-volume-up"></i>
+                    </button>           
+                    <input type="range" value="100" class="volume-slider">
+                </div>
+
+                <div class="video-time">
+                    <p class="time-current">0:00</p>
+                    /
+                    <p class="time-duration">2:00</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="panel-right">
+
+                <select class="video-speed">
+                    <option value="0.25">0.25</option>
+                    <option value="0.5">0.5</option>
+                    <option value="0.75">0.75</option>
+                    <option value="1" selected>Normal</option>
+                    <option value="1.25">1.25</option>
+                    <option value="1.5">1.5</option>
+                    <option value="1.75">1.75</option>
+                </select>
+
+                <button class="fullscreen">
+                    <i class="fas fa-expand"></i>
+                </button>
+
+            </div>
+
+            
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
